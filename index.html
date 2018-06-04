@@ -56,7 +56,7 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/tags/随笔/">随笔</a></li>
+				<li><a href="/">随笔</a></li>
 	        
 			</ul>
 		</nav>
@@ -122,7 +122,7 @@
 				
 					<li style="width: 50%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/随笔/">随笔</a></li>
+					<li style="width: 50%"><a href="/">随笔</a></li>
 		        
 				</ul>
 			</nav>
@@ -160,45 +160,10 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>此文章主要是介绍如何使用hexo+github搭建博客.</p>
-<h1 id="1-hexo简介"><a href="#1-hexo简介" class="headerlink" title="1. hexo简介"></a>1. hexo简介</h1><p>官网: <a href="http://hexo.io" target="_blank" rel="noopener">http://hexo.io</a></p>
-<h1 id="2-hexo安装及其使用"><a href="#2-hexo安装及其使用" class="headerlink" title="2. hexo安装及其使用"></a>2. hexo安装及其使用</h1><h3 id="2-1-全局安装hexo"><a href="#2-1-全局安装hexo" class="headerlink" title="2.1 全局安装hexo"></a>2.1 全局安装hexo</h3><pre><code>npm install -g hexo  // 全局安装
-</code></pre><h3 id="2-2-hexo项目的初始化"><a href="#2-2-hexo项目的初始化" class="headerlink" title="2.2 hexo项目的初始化"></a>2.2 hexo项目的初始化</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"> hexo init 项目名称    //最好跟github上的名称保持一致</span><br><span class="line">若先建项目名称，若执行初始化, 则直接hexo init即可。</span><br></pre></td></tr></table></figure>
-<h3 id="2-3-hexo常见命令"><a href="#2-3-hexo常见命令" class="headerlink" title="2.3 hexo常见命令"></a>2.3 hexo常见命令</h3><table>
-<thead>
-<tr>
-<th>命令行</th>
-<th>简写</th>
-<th>注释</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>hexo  generate</td>
-<td>hexo g</td>
-<td>//生成public文件夹,这里的文件内容是提交到github的</td>
-</tr>
-<tr>
-<td>hexo  server</td>
-<td>hexo s</td>
-<td>//启动服务，开启本地预览,<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></td>
-</tr>
-<tr>
-<td>hexo  deploy</td>
-<td>hexo d</td>
-<td>//部署到github</td>
-</tr>
-<tr>
-<td>hexo  new “章节”</td>
-<td>无</td>
-<td>//新建文章,生成有index.md</td>
-</tr>
-</tbody>
-</table>
-<h3 id="2-4-hexo-修改主题"><a href="#2-4-hexo-修改主题" class="headerlink" title="2.4 hexo 修改主题"></a>2.4 hexo 修改主题</h3><p>在本人博客中, 使用的是hexo-theme-yilia主题.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia</span><br></pre></td></tr></table></figure></p>
-<p>theme主题下载成功后,修改_config.yml文件中的theme: landscape为yilia,重新执行hexo g来重新生成.</p>
-<h3 id="2-5-上传到github"><a href="#2-5-上传到github" class="headerlink" title="2.5 上传到github"></a>2.5 上传到github</h3><p>需要安装插件: npm install hexo-deployer-git –save<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d   //部署的命令一定要用git bash</span><br></pre></td></tr></table></figure></p>
-<p>注意:<br>      有些命令可以用windows的cmd来完成,有些必须使用git bash来完成,为避免不必要的麻烦,建议全部用git bash来执行.</p>
-
+<h1 id="1-hexo简介"><a href="#1-hexo简介" class="headerlink" title="1. hexo简介"></a>1. hexo简介</h1><p>Hexo是一个简单、快速、强大的基于Github Pages的博客发布工具,支持Markdown格式,且具有众多主题.官网: <a href="http://hexo.io" target="_blank" rel="noopener">http://hexo.io</a><br>
+        
+          <a class="article-more-a" href="/2018/06/04/20180604-start/#more">more >></a>
+        
       
 
       
@@ -271,16 +236,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info.<br>
+        
+          <a class="article-more-a" href="/2018/06/04/hello-world/#more">more >></a>
+        
       
 
       
