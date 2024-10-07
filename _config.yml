@@ -22,9 +22,9 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Li Zhen Ping"
   pronouns         : # example: "she/her"  
-  bio              : "I received my bachelor's degree from Nanyang Institute of Technology, master's degree from Chengdu University of Information Technology under the supervision of Professor Tang Dan, and Ph.D. from the University of Chinese Academy of Sciences under the supervision of Professor Zhong Yong and Professor Li Shaobo. During my Ph.D., I also conducted visiting research under the guidance of my visiting supervisor."
+  bio              : ""
   location         : "Peking"
   employer         : "Inspur Group"
   uri              : # URL
