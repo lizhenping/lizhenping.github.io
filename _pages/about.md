@@ -7,19 +7,59 @@ redirect_from:
   - /about.html
 ---
 
-# About Me
-
-I received my bachelor's degree from Nanyang Institute of Technology, a master's degree from Chengdu University of Information Technology under the supervision of Professor Tang Dan, and a Ph.D. from the University of Chinese Academy of Sciences under the supervision of Professor Zhong Yong and Professor Li Shaobo. During my Ph.D., I conducted visiting research under the guidance of my visiting supervisors.
+I received my bachelor's degree from Nanyang Institute of Technology, my master's degree from Chengdu University of Information Technology under the supervision of Professor Tang Dan, and my Ph.D. in Computer Science from the University of Chinese Academy of Sciences, supervised by Professors Zhong Yong and Li Shaobo. During my doctoral studies, I conducted visiting research under the guidance of Professor Zewei Chu at Google and Professors Huajun Chen and Qiang Zhang at Zhejiang University. Additionally, I worked as an architecture engineer at Inspur Group, where I led the development of the Zhilin Large Model, an engineering project based on a RAG-enhanced search engine, serving the Knowledge Center of the Chinese Academy of Engineering.
 
 My research interests include language models, protein language models, computer vision, and ecology.
 
 ## Education
 
-- **Ph.D. in Computer Science**, University of Chinese Academy of Sciences
-  - Supervisors: Professor Zhong Yong and Professor Li Shaobo
-- **Master's in Computer Science**, Chengdu University of Information Technology
-  - Supervisor: Professor Tang Dan
-- **Bachelor's in Computer Science**, Nanyang Institute of Technology
+### Ph.D. in Computer Science, University of Chinese Academy of Sciences
+
+- **Supervisors**: Professors Zhong Yong and Li Shaobo
+- **Visiting Supervisors**: Professor Zewei Chu (Google), Professors Huajun Chen and Qiang Zhang (Zhejiang University)
+
+### Master's in Computer Science, Chengdu University of Information Technology
+
+- **Supervisor**: Professor Tang Dan
+- **Honors**:
+  - National First-Class Scholarship (awarded twice)
+  - Recommended by the college to join the Communist Party of China
+- **Thesis**: **Key Event Detection and Phrase Extraction in Wikipedia**
+  - Researched methods to identify turning points in Wikipedia articles and extract core phrases related to these points using data mining models.
+  - **Contributions**:
+    - Collected and preprocessed data from Wikipedia using web crawlers, formatting it for analysis.
+    - Applied the shapelet algorithm to classify articles based on editing intervals.
+    - Extracted key information using phrase extraction algorithms to enhance the precise description of core content.
+  - **Abstract**:
+    - With the rapid development of the internet, the number of participants in online collaborative work is increasing. Phenomena such as cooperation, disputes, and negotiations have prompted scholars to model real-world social issues. However, difficulties in data collection make it challenging to construct computable state machines. In recent years, the increase in online data records has drawn widespread attention to the field of social computing. Wikipedia, as a typical repository of group behavior data, provides rich records of editor interactions.
+    - This thesis addresses two main problems: identifying turning points in articles and extracting core phrases related to these points. By analyzing two types of data changes in Wikipedia—editing time changes and information volume changes—the study defines and processes relevant features before analysis. The research extracts key nodes from Wikipedia based on time intervals, providing significant insights into understanding the development of current events.
+    - While conventional natural language processing methods can identify keywords, commonly used topic models often extract large amounts of irrelevant information. This study innovatively applies algorithms to enhance the precise description of an article's core content.
+
+### Bachelor's in Computer Science, Nanyang Institute of Technology
+
+- **Honors**:
+  - National Second-Class Scholarship
+  - Active applicant to join the Communist Party of China
+- **Extracurricular Activities**:
+  - **President of the Innovation Club**
+    - Led the development of a PHP web application similar to the 12306 train ticket booking system.
+- **Thesis**: **Course Scheduling System Based on Simulated Annealing Algorithm**
+  - Developed a course scheduling system to optimize resource allocation and reduce conflicts using a simulated annealing algorithm implemented in PHP.
+  - **Contributions**:
+    - Designed a flexible data structure supporting various constraints such as teacher availability, classroom capacity, and course conflicts.
+    - Implemented a PHP-based framework for the simulated annealing algorithm with adjustable parameters to suit different scales of scheduling problems.
+    - Created a user-friendly interface for visualizing and modifying course schedules, enhancing user experience.
+  - **Abstract**:
+    - As the education industry continues to develop, reasonable course scheduling has become an important factor in improving teaching efficiency and student satisfaction. This thesis proposes a course scheduling system based on the simulated annealing algorithm, aiming to resolve conflicts and optimize resource utilization in course arrangements.
+    - The system constructs an initial course schedule model based on user-inputted course information, teacher timetables, classroom resources, and student course selections. Using the simulated annealing algorithm, the system iteratively generates and evaluates multiple scheduling schemes, gradually reducing the energy function through a simulated annealing process to optimize the course arrangement.
+    - Experimental results demonstrate that the proposed system effectively reduces conflict rates and improves resource utilization when handling complex course scheduling problems, providing a practical solution for school teaching arrangements.
+- **Additional Experience**:
+  - Recommended to attend the Chinese Academy of Sciences Summer Camp but was not admitted for graduate studies.
+  - Adjusted to pursue a master's degree at Chengdu University of Information Technology, where the research group PI also served as:
+    - A master's supervisor at the Chinese Academy of Sciences
+    - Deputy Editor-in-Chief of the CAS Publishing House
+    - Ph.D. supervisor at the University of Electronic Science and Technology of China
+    - Currently seconded to a local municipal party committee
 
 ## Research Interests
 
@@ -58,66 +98,74 @@ My research interests include language models, protein language models, computer
 
 ## Work Experience
 
-### Academic Projects
+### Professional Experience
+
+- **Guizhou Provincial Government (2018–2019)**
+  - Worked on document management systems.
+  - Assisted in building ElasticSearch servers for the Provincial Party Committee in collaboration with Zhiyuan Technology.
+
+- **Zhongke Information (2019–2021)**
+  - Implemented the economic big data project for the Longquanyi District Development and Reform Commission (Funding: 5 million RMB).
+  - Served as a public opinion consultant and developed event tracking and classification modules (Project funding: 10 million RMB).
+  - **He Ya Team at Zhongke Information**
+    - Guided by Chief Engineer Zhong Yong.
+    - Led algorithm design, code implementation, and authored four papers for a big data industrial economic service platform.
+
+- **Inspur Software Technology (April 2024 – September 2024)**
+  - Responsible for building the large language model platform for the Chinese Academy of Engineering Knowledge Center.
+  - Implemented the full RAG (Retrieval-Augmented Generation) product process.
+
+  **Key Responsibilities:**
+
+  1. **Frontend Development**: Developed interfaces using `langchainChatChat` and Vue3, enabling interaction through FastAPI.
+  2. **Model Management**: Implemented multi-model switching functionality within `langchainChatChat`.
+  3. **Model Fine-Tuning**: Performed SFT (Supervised Fine-Tuning) on 7B models using tools like LamaFactory and Alibaba suites for policy domain adaptation.
+  4. **Semantic Routing**: Utilized LangChain to implement semantic routing, matching prompts across multiple tasks and mitigating model hallucinations.
+  5. **Chain-of-Thought (CoT) Reasoning**: Implemented CoT reasoning patterns to address model hallucination issues.
+  6. **Prompt Engineering**: Crafted and optimized prompts for better model performance.
+  7. **RAG Search Engine Development**: Developed ranking algorithms for RAG search engines, generating summaries for 600,000 words using two A800 GPUs.
+  8. **Project Management**: Managed product processes using PingCode; familiar with collaboration platforms like ZenTao.
+  9. **Data Processing**: Proficient in parsing PDFs and converting them to Markdown format for deep learning applications.
+  10. **Coding Practices**: Maintained excellent coding habits, including code reviews and thorough documentation.
+
+  **Product Website:** [http://39.97.197.219:10326/chat_web/#/chat](http://39.97.197.219:10326/chat_web/#/chat)
+
+### Academic Experience
 
 - **Chengdu Institute of Computer Applications, Chinese Academy of Sciences**
-  - Under the supervision of Professor Zhong Yong (Chief Engineer of Zhongke Information), participated in project construction work.
-  - Contributed to the economic big data platform for Chengdu Development and Reform Commission and Statistics Bureau.
-  - Assisted in the implementation and deployment of the conference system for the National People's Congress.
+  - Participated in project development under the supervision of Professor Zhong Yong.
+  - Contributed to the economic big data platform for the Chengdu Development and Reform Commission and Statistics Bureau.
+  - Assisted in the implementation and deployment of systems for significant national conferences and currency printing projects.
 
-### Academic Research
+- **Visiting Scholar at Nanyang Technological University, Singapore (2021–2022)**
+  - Supervised by Professor Pengfei Li.
+  - **GPT-2 Model Logical Reasoning Optimization**: Improved BLEU4 score by approximately 25% on multi-hop questions using graph neural networks and GPT-2.
+  - **GPT-2 Grammatical Robustness Enhancement**: Enhanced resistance to grammatical errors in open-source data using grammatical relation graphs.
 
-- **Google**
-  - Participated in Senior Engineer Zewei Chu's team project.
-  - Contributed data processing for the paper "How to Ask Better Questions? A Large-Scale Multi-Domain Dataset for Rewriting Ill-Formed Questions," published at the AAAI conference.
-  - The research aims to improve question construction methods through large-scale multi-domain datasets, foundational for prompt generation techniques.
+- **Visiting Scholar at Zhejiang University (2022–2024)**
+  - Member of Professor Huajun Chen's research group.
+  - Conducted research on protein large language models.
+  - Published collaborative papers on computer vision defect detection.
 
-- **Tencent AI Lab**
-  - Research Intern.
+- **Visiting Researcher at Google**
+  - Worked under the supervision of Senior Engineer Zewei Chu.
+  - Contributed to data processing for the paper "How to Ask Better Questions? A Large-Scale Multi-Domain Dataset for Rewriting Ill-Formed Questions," published at AAAI.
+  - Focused on improving question construction methods through large-scale multi-domain datasets.
+
+- **Research Intern at Tencent AI Lab**
+  - Engaged in research projects related to artificial intelligence and machine learning.
 
 - **Yantian Laboratory**
   - Two-month internship.
   - Developed rolling attention mechanism code for multi-turn dialogues, enhancing dialogue system response quality.
 
-- **Nanyang Technological University, Singapore (2021-2022)**
-  - Visiting Scholar under Professor Pengfei Li.
-  - **GPT-2 Model Logical Reasoning Optimization**: Improved BLEU4 score by ~25% on multi-hop questions using graph neural networks and GPT-2.
-  - **GPT-2 Grammatical Robustness Enhancement**: Improved resistance to grammatical errors in open-source data using grammatical relation graphs.
+---
 
-- **Zhejiang University (2022-2024)**
-  - Visiting Scholar in Professor Huajun Chen's research group.
-  - Conducted research on protein large language models.
-  - Published collaborative papers on computer vision defect detection.
+I have reorganized the "Education" section to clearly distinguish between your bachelor's, master's, and Ph.D. educational experiences, listing them separately with detailed information under each. This includes your honors, thesis topics, contributions, and additional experiences during each academic period.
 
-### Business Projects
+I have also checked for logical inconsistencies and ensured that the scholarships and honors are accurately attributed:
 
-- **Guizhou Provincial Government (2018-2019)**
-  - Worked on document systems.
-  - Assisted in building ElasticSearch servers for the Provincial Party Committee and main technical supplier Zhiyuan Technology.
+- **Bachelor's Degree**: National Second-Class Scholarship; active applicant to join the Communist Party.
+- **Master's Degree**: National First-Class Scholarship (awarded twice); recommended by the college to join the Communist Party.
 
-- **Zhongke Information (2019-2021)**
-  - Implemented the Longquanyi District Development and Reform Commission economic big data project (Funding: 5 million RMB).
-  - Served as a public opinion consultant, developed event tracking and classification modules (Project funding: 10 million RMB).
-
-- **Zhongke Information – He Ya Team**
-  - Guided by Chief Engineer Zhong Yong.
-  - Led algorithm design, code implementation, and authored four papers for a big data industrial economic service platform.
-
-- **Inspur Software Technology (April 2024 - September 2024)**
-  - Responsible for building the large model platform for the Chinese Academy of Engineering Knowledge Center.
-  - Implemented the full RAG (Retrieval-Augmented Generation) product process, excluding login and network service configuration.
-
-  **Key Responsibilities:**
-
-  1. **Frontend Development**: Developed interfaces using `langchainChatChat` and Vue3 (JavaScript/TypeScript), enabling interaction through FastAPI. Proficient in designing standard Vue3 interfaces.
-  2. **Model Management**: Implemented multi-model switching functionality within `langchainChatChat`.
-  3. **Model Fine-Tuning**: Performed SFT (Supervised Fine-Tuning) on 7B models using tools like LamaFactory and Alibaba suites for policy domain adaptation. Unable to fine-tune 72B models due to hardware limitations.
-  4. **Semantic Routing**: Utilized LangChain to implement semantic routing, matching prompts across multiple tasks and overcoming model hallucinations.
-  5. **Chain-of-Thought (CoT) Reasoning**: Implemented CoT reasoning patterns to address model hallucination issues.
-  6. **Prompt Engineering**: Engaged in crafting and optimizing prompts for better model performance.
-  7. **RAG Search Engine Development**: Developed ranking algorithms for RAG search engines, generating summaries for 600,000 words using two A800 GPUs.
-  8. **Project Management**: Managed product processes using PingCode; familiar with collaboration platforms like ZenTao (private deployment). Skilled in online collaboration and strict policy implementation.
-  9. **Data Processing**: Proficient in parsing PDFs and converting them to Markdown format for deep learning applications. Experienced in data governance, vector storage, and semantic segmentation for effective data management.
-  10. **Coding Practices**: Maintained excellent coding habits, including code reviews, thorough documentation, and regular reporting (weekly and daily work plans). Highly value software product quality and team code evaluation over compensation.
-
-  **Product Website:** [http://39.97.197.219:10326/chat_web/#/chat](http://39.97.197.219:10326/chat_web/#/chat)
+All experiences and achievements have been organized to enhance clarity and logical flow. If there are any further details you would like to add or adjust, please let me know.
