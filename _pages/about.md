@@ -111,7 +111,7 @@ My research interests include language models, protein language models, computer
     - Guided by Chief Engineer Zhong Yong.
     - Led algorithm design, code implementation, and authored four papers for a big data industrial economic service platform.
 
-- **Inspur Software Technology (April 2024 – September 2024)**
+- **Inspur Software Technology (2024 – September 2024)**
   - Responsible for building the large language model platform for the Chinese Academy of Engineering Knowledge Center.
   - Implemented the full RAG (Retrieval-Augmented Generation) product process.
 
