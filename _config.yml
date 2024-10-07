@@ -11,7 +11,7 @@ locale                   : "Peking-CN"
 title                    : "Li Zhenping / Dr."
 title_separator          : "-"
 name                     : &name "Li Zhenping"
-description              : &description "personal description"
+description              : &description "Researcher specializing in language models, protein language models, computer vision, and ecology."
 url                      : https://lizhenping.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -24,17 +24,17 @@ author:
   avatar           : "profile.png"
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "I received my bachelor's degree from Nanyang Institute of Technology, master's degree from Chengdu University of Information Technology under the supervision of Professor Tang Dan, and Ph.D. from the University of Chinese Academy of Sciences under the supervision of Professor Zhong Yong and Professor Li Shaobo. During my Ph.D., I also conducted visiting research under the guidance of my visiting supervisor."
+  location         : "Peking"
+  employer         : "Inspur Group"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "lizhenping18@mails.ucas.ac.cn" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=bk7i8SQAAAAJ&hl=zh-CN"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0001-8590-8517"
   semantic         : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
