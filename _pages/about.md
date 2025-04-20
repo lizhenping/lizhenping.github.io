@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I received my bachelor's degree from Nanyang Institute of Technology, my master's degree from Chengdu University of Information Technology under the supervision of Professor Tang Dan, and my Ph.D. in Computer Science from the University of Chinese Academy of Sciences, supervised by Professors Zhong Yong and Li Shaobo. During my doctoral studies, I conducted visiting research under the guidance of Professor Zewei Chu at Google and Professors Huajun Chen and Qiang Zhang at Zhejiang University. Additionally, I worked as an architecture engineer at Inspur Group, where I led the development of the Zhilin Large Model, an engineering project based on a RAG-enhanced search engine, serving the Knowledge Center of the Chinese Academy of Engineering.
+I earned my bachelor's degree from the Nanyang Institute of Technology and my master's degree from Chengdu University of Information Technology, where I was supervised by Professor Tang Dan. I completed my Ph.D. in Computer Science at the University of Chinese Academy of Sciences, with guidance from Professors Zhong Yong and Li Shaobo. During my doctoral studies, I also conducted visiting research under Professor Zewei Chu at Google, as well as Professors Huajun Chen and Qiang Zhang at Zhejiang University.
+
+In addition to my academic achievements, I worked as an architecture engineer at Inspur Group, where I led the development of the Zhilin Large Model, an engineering project based on a Retrieval-Augmented Generation (RAG) enhanced search engine, designed for the Knowledge Center of the Chinese Academy of Engineering. Currently, I am an assistant researcher at the Information Research Center of Military Science at the Academy of Military Sciences.
 
 My research interests include language models, protein language models, computer vision, and ecology.
 
@@ -114,6 +116,11 @@ My research interests include language models, protein language models, computer
 - **Inspur Software Technology (2024 – September 2024)**
   - Responsible for building the large language model platform for the Chinese Academy of Engineering Knowledge Center.
   - Implemented the full RAG (Retrieval-Augmented Generation) product process.
+
+- **Information Research Center of Military Science, Academy of Military Sciences (October 2024 – Present)**  
+  - Currently serving as an assistant researcher, specializing in projects related to NL2SQL (Natural Language to SQL), natural language processing, and knowledge graph development.  
+  - Leading initiatives that leverage innovative technologies to enhance data querying and knowledge management capabilities within military applications.  
+  - Collaborating with multidisciplinary teams to design and implement cutting-edge solutions tailored to address specific defense-related challenges.  
 
   **Key Responsibilities:**
 
