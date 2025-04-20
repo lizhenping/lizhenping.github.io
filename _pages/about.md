@@ -132,7 +132,7 @@ My research interests include language models, protein language models, computer
 
   **Product Website:** [http://39.97.197.219:10326/chat_web/#/chat](http://39.97.197.219:10326/chat_web/#/chat)
 
-   - **Information Research Center of Military Science, Academy of Military Sciences (October 2024 – Present)**  
+- **Information Research Center of Military Science, Academy of Military Sciences (October 2024 – Present)**  
   - Currently serving as an assistant researcher, specializing in projects related to NL2SQL (Natural Language to SQL), natural language processing, and knowledge graph development.  
   - Leading initiatives that leverage innovative technologies to enhance data querying and knowledge management capabilities within military applications.  
   - Collaborating with multidisciplinary teams to design and implement cutting-edge solutions tailored to address specific defense-related challenges.  
